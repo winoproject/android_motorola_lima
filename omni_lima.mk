@@ -27,7 +27,7 @@ $(call inherit-product, device/motorola/lima/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/pb/config/common.mk)
-$(call inherit-product, vendor/pb/config/gsm.mk)
+
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lima
